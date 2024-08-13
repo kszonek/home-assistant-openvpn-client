@@ -2,7 +2,7 @@
 name: OpenVPN Client
 version: "0.0.2"
 slug: openvpn-client
-description: Connect to OpenVPN server from Home Assistant
+description: Connect to OpenVPN server from Home Assistant why not up?
 url: "https://github.com/kszonek/home-assistant-openvpn-client/tree/master/openvpn-client"
 arch:
   - armhf
