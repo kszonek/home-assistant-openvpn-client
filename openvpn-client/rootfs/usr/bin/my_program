@@ -1,9 +1,7 @@
 #!/bin/bash
 
 echo "test"
-bashio::log.info "test bashio"
-
+echo $(ls -la /usr/sbin/ | grep open)
 openvpn --config /etc/openvpn/client.conf
 
 echo "test2"
-bashio::log.info "test2 bashio"
