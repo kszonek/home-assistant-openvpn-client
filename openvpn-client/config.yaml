@@ -17,4 +17,4 @@ options:
   message: "Hello world... changed"
 schema:
   message: "str?"
-image: "ghcr.io/kszonek/{arch}-home-assistant-openvpn-client"
+#image: "ghcr.io/kszonek/{arch}-home-assistant-openvpn-client"
