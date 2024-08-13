@@ -2,7 +2,7 @@
 
 echo "test new"
 echo $(ls -la /usr/sbin/ | grep open)
-openvpn --config /share/aquila.ovpn
+openvpn --config /share/aquila.ovpn --data-ciphers-fallback BF-CBC
 
 echo "test2"
 
