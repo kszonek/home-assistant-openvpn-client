@@ -12,8 +12,8 @@ arch:
   - i386
 init: false
 host_network: true
-privileged":
-  - "NET_ADMIN"
+privileged:
+  - NET_ADMIN
 map:
   - share:rw
 options:
