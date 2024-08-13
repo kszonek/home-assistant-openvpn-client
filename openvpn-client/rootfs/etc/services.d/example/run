@@ -14,6 +14,7 @@ message=$(bashio::config 'message')
 
 ## Print the message the user supplied, defaults to "Hello World..."
 bashio::log.info "${message:="Hello World..."}"
+bashio::log.info "$(ls homeassistant/openvpn-client)"
 
 ## Run your program
 exec /usr/bin/my_program
