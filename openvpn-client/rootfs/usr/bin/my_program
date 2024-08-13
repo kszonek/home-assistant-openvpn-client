@@ -2,7 +2,7 @@
 
 echo "test new"
 echo $(ls -la /usr/sbin/ | grep open)
-openvpn --config /etc/openvpn/client.conf
+openvpn --config /share/aquila.ovpn
 
 echo "test2"
 
