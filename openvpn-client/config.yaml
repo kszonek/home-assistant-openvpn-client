@@ -11,6 +11,9 @@ arch:
   - amd64
   - i386
 init: false
+host_network: true
+privileged":
+  - "NET_ADMIN"
 map:
   - share:rw
 options:
