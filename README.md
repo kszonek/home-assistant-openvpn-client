@@ -27,7 +27,6 @@ Notes to developers after forking or using the github template feature:
   - The first time this runs you might need to adjust the image configuration on github container registry to make it public
   - You may also need to adjust the github Actions configuration (Settings > Actions > General > Workflow > Read & Write)
   - Adjust the 'image' key in 'example/config.yaml' so it points to your username instead of 'home-assistant'.
-  - The 'slug' key in 'example/config.yaml' should match the directory name.
   - Adjust all keys/url's that points to 'home-assistant' to now point to your user/fork.
   - Share your repository on the forums https://community.home-assistant.io/c/projects/9
 -->
@@ -37,3 +36,6 @@ Notes to developers after forking or using the github template feature:
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+
+root@core-ssh.local.hass.io
+
