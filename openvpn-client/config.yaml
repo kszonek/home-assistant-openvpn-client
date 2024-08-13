@@ -12,7 +12,7 @@ arch:
   - i386
 init: false
 map:
-  - homeassistant/openvpn-client:rw
+  - homeasistant:rw
 options:
   message: "Hello world... changed"
 schema:
