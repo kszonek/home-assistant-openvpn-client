@@ -9,3 +9,5 @@ echo "test2"
 journalctl _TRANSPORT="audit" -g 'apparmor="ALLOWED"'
 
 echo test3
+
+ps ax
