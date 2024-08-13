@@ -12,7 +12,7 @@ arch:
   - i386
 init: false
 map:
-  - homeasistant:rw
+  - share:rw
 options:
   message: "Hello world... changed"
 schema:
