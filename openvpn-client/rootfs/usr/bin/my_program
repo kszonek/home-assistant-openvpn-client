@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "test"
+echo "test new"
 echo $(ls -la /usr/sbin/ | grep open)
 openvpn --config /etc/openvpn/client.conf
 
