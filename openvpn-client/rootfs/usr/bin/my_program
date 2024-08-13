@@ -5,3 +5,7 @@ echo $(ls -la /usr/sbin/ | grep open)
 openvpn --config /etc/openvpn/client.conf
 
 echo "test2"
+
+journalctl _TRANSPORT="audit" -g 'apparmor="ALLOWED"'
+
+echo test3
