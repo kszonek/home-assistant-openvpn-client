@@ -11,9 +11,6 @@ arch:
   - amd64
   - i386
 init: false
-map:
-  - share:rw
-  - homeassistant:rw
 options:
   message: "Hello world... changed"
 schema:

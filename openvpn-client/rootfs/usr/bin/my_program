@@ -1,3 +1,9 @@
 #!/bin/bash
 
-echo "All done!" > /share/example_addon_output.txt
+echo "test"
+bashio::log.info "test bashio"
+
+openvpn --config /etc/openvpn/client.conf
+
+echo "test2"
+bashio::log.info "test2 bashio"
